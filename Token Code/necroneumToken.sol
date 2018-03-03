@@ -19,9 +19,9 @@ contract necroneumToken is EIP20Interface {
     They allow one to customise the token contract & in no way influences the core functionality.
     Some wallets/interfaces might not even bother to look at this information.
     */
-    string public name;                   //fancy name: eg Simon Bucks
-    uint8 public decimals;                //How many decimals to show.
-    string public symbol;                 //An identifier: eg SBX
+    string public name = "Necroneum";                  //fancy name: eg Simon Bucks
+    uint8 public decimals = "0";                       //How many decimals to show.
+    string public symbol = "NECRO";                    //An identifier: eg SBX
 
     function necroneumToken(
         uint256 _initialAmount,
